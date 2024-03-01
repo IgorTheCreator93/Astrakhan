@@ -1,0 +1,1879 @@
+* {
+  font-family: "Montserrat Alternates", "arial", sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.adaptive_header {
+  display: none;
+}
+
+header span {
+  display: none;
+}
+
+.element-animation {
+  top: 0px;
+  opacity: 0;
+  position: relative;
+}
+
+.element-animation.element-show {
+  position: relative;
+  top: -20px;
+  opacity: 1;
+  transition-duration: 1.4s;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+html {
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: #FDF5EE;
+}
+
+header {
+  width: 100%;
+  height: 1100px;
+  background: url("/public/img/Group\ 7.png") center/cover no-repeat fixed;
+
+}
+
+.section_1 {
+  width: 100%;
+  height: 900px;
+}
+
+.header_text {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat Alternates";
+  font-weight: 340;
+  font-size: 24px;
+  padding-top: 50px;
+  display: flex;
+
+  justify-content: end;
+  gap: 65px;
+}
+
+a {
+  color: white;
+}
+
+.header_content_text {
+  width: 862px;
+}
+
+.header_content_text :nth-child(1) {
+  margin-top: 531px;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 550;
+  color: white;
+  font-family: "Montserrat Alternates";
+  line-height: 59px;
+  font-style: normal;
+}
+
+.header_content_text :nth-child(2) {
+  margin-top: 30px;
+  font-size: 120px;
+  font-weight: 550;
+  color: white;
+  font-family: "Montserrat Alternates";
+  line-height: 59px;
+  font-style: normal;
+}
+
+.header_content_text :nth-child(3) {
+  margin-top: 45px;
+  font-size: 28px;
+  font-weight: 550;
+  color: white;
+  font-family: "Montserrat Alternates";
+  line-height: 59px;
+  font-style: normal;
+}
+
+.section_1 {
+  background-color: #fdf5ee;
+}
+
+.section_welcome {
+  display: flex;
+  padding-top: 164px;
+}
+
+.section_welcome1 {
+  margin-top: 20px;
+  gap: 50px;
+  width: 34%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.section_welcome1 .tt1 :nth-child(1) {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+
+  color: #b91f15;
+}
+
+
+.section_welcome1 .tt1 :nth-child(2) {
+  /* Знакомьтесь, АСТРАХАНЬ */
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.15em;
+
+  color: #b91f15;
+}
+
+.section_welcome1 :nth-child(2) {
+  /* Астрахань иногда называют «волжской Венецией» или городом-островом. Здесь Пётр I приказал строить Каспийский флот и лично заложил порт, а художник Борис Кустодиев — писал свои знаменитые полотна. */
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #043f82;
+}
+
+.section_welcome2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_welcome2 .img_road {
+  width: 54.58vw;
+
+}
+
+.zagalovok2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* gap: 200px; */
+}
+
+.section_welcome2 :nth-child(1) {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  width: 66%;
+  font-size: 128px;
+  line-height: 121px;
+  text-transform: uppercase;
+  color: #043f82;
+}
+
+.section_welcome2 .img_road {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zagalovok1 {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.section_2 {
+  background-color: #fdf5ee;
+  z-index: 1;
+}
+
+.kremlin {
+  padding: 20px 0;
+}
+
+.kremlin h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 121px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #043f82;
+}
+
+.img_kremlin {
+  background: url("/public/img/kremlin.png");
+  width: 100%;
+  height: 1100px;
+
+  z-index: 1;
+}
+
+
+.line {
+  background: url("/public/img/Line.png");
+  background-repeat: no-repeat;
+  background-color: #fdf5ee;
+
+  width: 100%;
+  height: 7000px;
+
+}
+
+.fishback {
+  position: absolute;
+  margin-top: -615px;
+  margin-left: 970px;
+}
+
+
+.popular_place {
+
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 250px;
+}
+
+.popular_place_text h2 {
+  /* Популярные места */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+
+  color: #B91F15;
+
+
+}
+
+.popular_place_text {
+  /* Добро пожаловать в Театр оперы и балета – ваше окно в мир элегантного искусства... */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #043F82;
+
+
+}
+
+.popular_place_text {
+  display: flex;
+  flex-direction: column;
+  gap: 196px;
+  justify-content: start;
+}
+
+.popular_place_img {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  justify-content: start;
+}
+
+.popular_place_img h2 {
+  /* ТЕАТР ОПЕРЫ И БАЛЕТА */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 121px;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+
+  color: #043F82;
+
+
+}
+
+.section_4 {
+  margin-top: 150px;
+}
+
+
+
+.popular_place_2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.popular_place_text_2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+
+  justify-content: start;
+}
+
+.popular_place_text_2 p {
+  /* "Лебединое озеро – жемчужина природы в сердце города. Очаровательная красота озера, окруженного лесами... */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #043F82;
+
+
+}
+
+.popular_place_img_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  justify-content: start;
+}
+
+.popular_place_img_2 h2 {
+  /* лебединное озеро */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 121px;
+  text-align: right;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+
+  color: #043F82;
+
+
+}
+
+.section_5 {
+  margin-top: 150px;
+}
+
+.popular_place_3 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+}
+
+.popular_place_text_3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+
+  justify-content: start;
+}
+
+.popular_place_text_3 p {
+  /* "Лебединое озеро – жемчужина природы в сердце города. Очаровательная красота озера, окруженного лесами... */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #043F82;
+
+
+}
+
+.popular_place_img_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  justify-content: start;
+}
+
+.popular_place_img_3 h2 {
+
+  /* Площадь Ленина */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 121px;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+
+  color: #043F82;
+
+
+}
+
+.popular_place_text_slider p {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Другие достопримечательности */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  /* identical to box height */
+  margin-top: 100px;
+
+  color: #043F82;
+}
+
+
+.section_6 {
+  margin-top: 150px;
+}
+
+.about_us {
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+}
+
+.about_us_lotos {
+  margin-top: 220px;
+
+}
+
+.about_us h2 {
+  display: flex;
+  justify-content: flex-start;
+  /* А у нас... */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 121px;
+  text-align: right;
+  letter-spacing: -0.06em;
+
+  color: #043F82;
+}
+
+/* .about_us_content {
+  display: flex;
+  flex-direction: column;
+
+
+
+
+} */
+
+.about_us_content_img {
+  width: 25px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_us_content_interes {
+  /* Интересные факты */
+  margin-top: 40px;
+
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: right;
+
+  color: #B91F15;
+}
+
+.about_us_content_1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  /* Астраханские арбузы официально считаются самыми вкусными в мире. */
+
+  align-items: center;
+
+  width: 520px;
+  height: 81px;
+  gap: 5px;
+  align-items: center;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: #043F82;
+}
+
+.about_us_content_2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  /* Астраханские арбузы официально считаются самыми вкусными в мире. */
+
+
+  width: 520px;
+  height: 81px;
+  gap: 5px;
+  align-items: center;
+
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: #043F82;
+}
+
+.about_us_content_3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  /* Астраханские арбузы официально считаются самыми вкусными в мире. */
+
+  width: 520px;
+  height: 81px;
+  gap: 5px;
+  align-items: center;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: #043F82;
+}
+
+.about_us_content_2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.about_us_content_3 {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.section_7_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.life_play_content {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+
+}
+
+.life_content {
+  display: flex;
+  justify-content: flex-start;
+
+  /* вНУТРЕННЯЯ ЖИЗНЬ */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  /* text-transform: uppercase; */
+
+  color: #B91F15;
+}
+
+.play_content {
+
+  /* Торгово-развлекательные обьекты */
+
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 156px;
+
+  color: #043F82;
+}
+
+.life_play_img {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 205px;
+}
+
+
+.section_8_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.section_8_text {
+  /* Прогулочные зоны */
+  width: 1060px;
+  height: 280px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 156px;
+  text-align: right;
+
+  color: #043F82;
+}
+
+.section_8_img {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  gap: 205px;
+}
+
+
+
+
+.section_9_content {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.section_9_text {
+  /* Лето */
+
+
+
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 156px;
+  text-align: right;
+
+  color: #043F82;
+}
+
+.section_9_img {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  gap: 205px;
+}
+
+
+
+
+.section_10_content {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.section_10 {
+  background-color: #fdf5ee;
+}
+
+.section_10_text {
+  /* Зима */
+
+
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 156px;
+
+  color: #043F82;
+}
+
+.section_10_content {
+  background-color: #fdf5ee;
+}
+
+.section_10_img {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  gap: 205px;
+}
+
+/* .section_11_content {
+  background-color: #043F82;
+  width: 1800px;
+  height: 700px;
+  display: flex;
+} */
+
+/* .section_11_text {
+
+  justify-content: flex-start;
+
+  Связь с нами
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-transform: uppercase;
+
+  color: #FDF5EE;
+} */
+
+
+
+.section_12_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 100px;
+  gap: 50px;
+
+
+}
+
+.section_12 h2 {
+
+  justify-content: center;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 121px;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+
+  color: #043F82;
+}
+
+
+
+
+.section_11_content {
+  margin-top: 200px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 200px;
+
+}
+
+
+
+.content_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_logo p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* mrimari@vk.com */
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.content_but {
+  margin-top: 100px;
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  width: 385px;
+  height: 70px;
+}
+
+/* .content_logo img {
+  width: 200px;
+  height: 160px;
+} */
+
+.content_but {
+  border: 2px solid black;
+  /* Group 17 */
+  /* Rectangle 27 */
+
+
+
+  background: #B91F15;
+  border-radius: 10px;
+
+
+  /* оформить подписку */
+
+
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.content_but:hover {
+  background-color: #043F82;
+}
+
+
+@media screen and (max-width: 1700px) {
+  .container {
+    max-width: 1024px;
+
+  }
+
+  .line {
+    background-image: none;
+
+  }
+
+  .header_text {
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .section_welcome {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 100px;
+  }
+
+
+  .section_welcome1 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: max-content;
+  }
+
+  .zagalovok2 .section_welcome2 h1 {
+    font-size: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .kremlin h1 {
+    font-size: 100px;
+  }
+
+  .as1 {
+    width: 700px;
+  }
+
+  .section_2 {
+    padding-top: 500px;
+  }
+
+  .tt1 {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .popular_place {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .popular_place_text {
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  }
+
+  .popular_place_img {
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+  .popular_place_img h2 {
+    font-size: 100px;
+  }
+
+  .popular_place_2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .popular_place_text_2 {
+    height: max-content;
+    margin-top: 20px;
+  }
+
+  .popular_place_img_2 h2 {
+    font-size: 100px;
+  }
+
+  .popular_place_img_3 h2 {
+    font-size: 100px;
+  }
+
+  .popular_place_text_3 {
+    height: max-content;
+    margin-top: 20px;
+  }
+
+  .popular_place_3 {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+
+  .about_us {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  }
+
+  .about_us_content h2 {
+    font-size: 100px;
+  }
+
+  .about_us_content_1 {
+    width: 900px;
+  }
+
+  .about_us_content_2 {
+    width: 900px;
+    ;
+  }
+
+  .about_us_content_3 {
+    width: 900px;
+  }
+
+  .about_us_lotos {
+    margin-top: 20px;
+  }
+
+  .about_us_content_interes {
+    justify-content: center;
+    width: max-content;
+
+  }
+
+  .life_content p {
+    display: flex;
+    width: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .life_play_content {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .life_play_img {
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_8_img {
+    gap: 80px;
+  }
+
+  .section_9_img {
+    gap: 80px;
+  }
+
+  .section_10_img {
+    gap: 80px;
+  }
+
+
+  .play_content p {
+    font-size: 100px;
+  }
+
+  .section_8_text p {
+    font-size: 100px;
+  }
+
+  .section_9 {
+    background-color: #FDF5EE;
+  }
+
+  .section_9_text p {
+    font-size: 100px;
+  }
+
+  .section_10_text p {
+    font-size: 100px;
+  }
+
+  .fishback {
+    display: none;
+  }
+
+
+  .section_12 h2 {
+    font-size: 100px;
+  }
+
+  .section_11_content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+  .container {
+    max-width: 768px;
+
+
+  }
+
+  .header_text {
+    gap: 40px;
+  }
+
+  .header_content_text {
+    width: max-content;
+  }
+
+
+
+  .header_text a p {
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5px;
+    font-size: 15px;
+  }
+
+  .header_content_text h1 {
+    margin-top: 20px;
+    width: max-content;
+  }
+
+  .header_content_text h1:nth-child(1) {
+    font-size: 45px;
+
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header_content_text h1:nth-child(2) {
+    font-size: 100px;
+  }
+
+  .section_3 {
+    width: 100%;
+  }
+
+  .header_content_text h1:nth-child(3) {
+    font-size: 25px;
+  }
+
+  .section_welcome1 p {
+    font-size: 10px;
+  }
+
+  .section_welcome2 .img_road {
+    width: 750px;
+    height: 200px;
+
+  }
+
+  .section_welcome2 h1 {
+    font-size: 10px;
+  }
+
+  .kremlin {
+    margin-top: 10px;
+  }
+
+
+  .section_8_text {
+    width: 600px;
+  }
+
+  .section_8_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .play_content p {
+    font-size: 90px;
+    line-height: 140px;
+  }
+
+
+
+
+
+
+  .zagalovok2 .section_welcome2 h1 {
+    font-size: 80px;
+  }
+
+  .kremlin h1 {
+    font-size: 90px;
+  }
+
+  .section_welcome1 .as1 {
+    font-size: 20px;
+  }
+
+  .section_2 {
+    padding-top: 300px;
+  }
+
+  /* .section_welcome1 .zagalovok1 .tt1 p {} */
+
+  .popular_place {
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .popular_place_text {
+    width: 600px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .popular_place_text p {
+    font-size: 20px;
+  }
+
+  .popular_place_img {
+    width: 600px;
+    height: max-content;
+
+  }
+
+
+  .popular_place_img h2 {
+    font-size: 90px;
+  }
+
+  .popular_place_2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popular_place_text_2 {
+    height: max-content;
+    margin-top: 20px;
+  }
+
+  .popular_place_img_2 h2 {
+    font-size: 90px;
+    width: 600px;
+  }
+
+  .popular_place_img_2 img {
+    width: 600px;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popular_place_text_2 p {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+  }
+
+  .popular_place_img_3 h2 {
+    font-size: 90px;
+    width: 600px;
+  }
+
+  .popular_place_img_3 img {
+    width: 600px;
+    height: max-content;
+  }
+
+  .popular_place_text_3 p {
+    width: 600px;
+    font-size: 20px;
+  }
+
+  .popular_place_text_slider p {
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-size: 40px;
+
+  }
+
+
+
+
+
+  .popular_place_3 {
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .about_us {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_us_content {
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+  }
+
+  .about_us_content h2 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+  }
+
+  .about_us_content_1 {
+    width: 100%;
+  }
+
+  .about_us_content_1 p {
+    width: 600px;
+
+    font-size: 20px;
+  }
+
+
+
+  .about_us_content_2 {
+    width: 600px;
+    font-size: 20px;
+    ;
+  }
+
+  .about_us_content_3 {
+    width: 600px;
+    font-size: 20px;
+  }
+
+  .about_us_lotos {
+    margin-top: 20px;
+  }
+
+  .about_us_content_interes {
+    justify-content: center;
+    width: max-content;
+
+  }
+
+  .section_7_content {
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .life_content p {
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .life_play_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 768px;
+
+  }
+
+  .life_play_img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .section_7_img {
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  .section_8_text p {
+    font-size: 80px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_8_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .section_8_img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_9_img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_9_text p {
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+  }
+
+  .section_9_content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_10_img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .play_content p {
+    font-size: 75px;
+    width: 600px;
+  }
+
+  .section_8_text p {}
+
+  .section_9_text p {}
+
+  .section_10_text p {
+    font-size: 80px;
+  }
+
+  .section_10_content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_10_text p {
+    width: max-content;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_12 h2 {
+    font-size: 80px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 425px;
+  }
+
+  .header_text a {
+    display: none;
+  }
+
+  .header_content_text {
+    width: 425px;
+  }
+
+  /* .adaptive_header {
+    display: block;
+  } */
+
+  header span {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    color: white;
+    z-index: 110;
+  }
+
+  .adaptive_header .menu_hide {
+    position: fixed;
+    z-index: 100;
+    background-color: #000000af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 70px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .header_text a p {}
+
+  .header_content_text h1 {}
+
+  .header_content_text h1:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .header_content_text h1:nth-child(2) {
+    font-size: 60px;
+  }
+
+  .section_3 {}
+
+  .header_content_text h1:nth-child(3) {
+    font-size: 18px;
+    width: 425px;
+  }
+
+  .section_welcome1 .zagalovok1 .tt1 p {
+    font-size: 30px;
+  }
+
+  .section_welcome1 .zagalovok1 .tt2 img {
+    width: 60px;
+    height: max-content;
+  }
+
+  .section_welcome {
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_welcome1 .as1 {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .section_welcome2 .img_road {
+    width: 425px;
+    height: max-content;
+  }
+
+  .section_welcome2 h1 {}
+
+  .kremlin h1 {
+    font-size: 60px
+  }
+
+
+  .section_8_text {}
+
+  .section_8_img {}
+
+  .play_content p {}
+
+
+
+  .zagalovok2 .section_welcome2 {
+    width: 425px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .zagalovok2 .section_welcome2 h1 {
+    font-size: 50px;
+    line-height: 90px;
+    justify-content: center;
+
+  }
+
+  .img_kremlin {
+    width: 100%;
+  }
+
+  .kremlin h1 {
+    font-size: 45px;
+
+  }
+
+  .section_welcome1 .as1 {}
+
+  .section_2 {
+    padding-top: 200px;
+    width: 425px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+  .popular_place_text {
+    width: 425px;
+  }
+
+
+
+  .popular_place_text h2 {
+    font-size: 30px;
+
+  }
+
+  .popular_place_text p {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .popular_place_img {
+    width: 425px;
+  }
+
+  .popular_place_img img {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .popular_place_img h2 {
+
+    font-size: 50px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .popular_place_2 {}
+
+  .popular_place_text_2 {}
+
+  .popular_place_img_2 h2 {
+    font-size: 45px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .popular_place_img_2 img {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .popular_place_text_2 p {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .popular_place_img_3 h2 {
+    font-size: 45px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .popular_place_img_3 img {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .popular_place_text_3 p {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .popular_place_text_slider p {
+    font-size: 20px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+
+
+
+
+
+  .about_us {}
+
+  .about_us_content {
+    width: 425px;
+  }
+
+  .about_us_content h2 {
+    font-size: 45px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about_us_content_1 {}
+
+  .about_us_content_1 {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+  .about_us_content_2 {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about_us_content_3 {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about_us_lotos img {
+    width: 300px;
+    height: max-content;
+  }
+
+  .about_us_content_interes p {
+    font-size: 30px;
+
+  }
+
+  .section_7_content {
+    width: 425px;
+  }
+
+
+
+  .life_content p {
+    font-size: 30px;
+    width: 425px;
+  }
+
+  .life_play_content {
+    width: 425px;
+  }
+
+  .life_play_img {}
+
+  .section_7_content img {
+    width: 300px;
+    height: max-content;
+  }
+
+
+  .play_content p {
+    line-height: 90px;
+    font-size: 35px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+  .section_8_text p {
+    font-size: 45px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+
+
+  .section_8_img img {
+    width: 300px;
+    height: max-content;
+  }
+
+  .section_9_text p {
+    font-size: 45px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+
+
+  .section_10_content .section_10_text p {
+    font-size: 50px;
+  }
+
+  .section_10_img img {
+    width: 300px;
+    height: max-content;
+  }
+
+  .section_9_img img {
+    width: 300px;
+    height: max-content;
+  }
+
+  .play_content p {}
+
+  .section_8_text {
+    width: 425px;
+  }
+
+  .section_12 h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .header_content_text h1:nth-child(2) {
+    font-size: 40px;
+  }
+
+  .header_content_text h1:nth-child(3) {
+    width: 300px;
+  }
+
+  .life_play_content {
+    width: 300px;
+  }
+
+  .header_content_text {
+    width: 300px;
+  }
+
+  .section_7_content {
+    width: 300px;
+  }
+
+  .zagalovok2 .section_welcome2 h1 {
+    font-size: 40px;
+  }
+
+  .zagalovok2 .section_welcome2 {
+    width: 300px;
+  }
+
+  .section_welcome2 .img_road {
+    width: 300px;
+  }
+
+  .section_2 {
+    width: 300px;
+  }
+
+  .kremlin h1 {
+    font-size: 30px;
+  }
+
+  .popular_place_img {
+    width: 300px;
+  }
+
+  .about_us_content {
+    width: 300px;
+  }
+
+  .content_logo p {
+    width: 300px;
+    font-size: 30px;
+  }
+
+  .content_but {
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .section_8_text {
+    width: 300px;
+  }
+
+  .popular_place_text {
+    width: 300px;
+  }
+
+  .life_content p {
+    width: 300px;
+  }
+
+  .about_us_content_interes p {
+    font-size: 24px;
+  }
+}
